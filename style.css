@@ -1,0 +1,20 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Nagayama';
+  src: url('./nagayama_kai08.otf') format('opentype');
+}
+body {
+  font-family: 'Nagayama', sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
