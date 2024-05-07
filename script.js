@@ -735,7 +735,7 @@ function displayCharactersOneByOne(charactersArray) {
       const count = document.createElement('p');
 
       count.textContent = index;
-      count.style.fontSize = '20px';
+      count.style.fontSize = '18px';
       count.style.fontFamily = 'OpenSans';
 
       characterElement.textContent = character;
