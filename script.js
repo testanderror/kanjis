@@ -624,13 +624,13 @@ function displayCharactersOneByOne(charactersArray) {
       count.style.fontFamily = 'OpenSans';
 
       characterElement.textContent = character;
-      characterElement.style.fontSize = '400px';
+      characterElement.style.fontSize = '300px';
 
       characterContainer.appendChild(characterElement);
       characterContainer.appendChild(count);
 
       index++;
-      intervalDuration *= 0.99;
+      intervalDuration *= 0.98;
       clearInterval(intervalId);
       intervalId = setInterval(updateCharacter, intervalDuration);
     } else {
