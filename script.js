@@ -747,7 +747,7 @@ function displayCharactersOneByOne(charactersArray) {
       characterContainer.appendChild(count);
 
       index++;
-      intervalDuration *= 0.99;
+      intervalDuration *= 0.985;
       clearInterval(intervalId);
       intervalId = setInterval(updateCharacter, intervalDuration);
     } else {
