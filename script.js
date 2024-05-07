@@ -624,7 +624,7 @@ function displayCharactersOneByOne(charactersArray) {
       count.style.fontFamily = 'OpenSans';
 
       characterElement.textContent = character;
-      characterElement.style.fontSize = '500px';
+      characterElement.style.fontSize = '400px';
 
       characterContainer.appendChild(characterElement);
       characterContainer.appendChild(count);
